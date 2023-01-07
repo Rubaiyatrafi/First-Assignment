@@ -38,8 +38,49 @@
 }
 .btn-text {
   border: none;
+  background-color: white;
   font-family: "Work Sans", sans-serif;
   color: rgb(67, 49, 233);
   text-align: center;
   font-size: 15px;
+}
+
+.body {
+  border: none;
+  display: flex;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+.details {
+  font-family: "Work Sans", sans-serif;
+  padding-left: 300px;
+  text-align: left;
+}
+.details1 {
+  font-size: 50px;
+  font-weight: 50px;
+}
+.details2 {
+  padding-top: 70px;
+}
+.details3 {
+  padding-top: 30px;
+}
+
+.body-header {
+  font-family: "Work Sans", sans-serif;
+  font-size: 60px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+.skills-container {
+  text-align: center;
 }
